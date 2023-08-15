@@ -3,6 +3,12 @@ Demo of ``sphinx.ext.coverage``
 
 A demo of the `sphinx.ext.coverage`__ extension found in core Sphinx.
 
+.. note::
+
+   There's an `open issue`__ regarding the C coverage support, which is
+   currently broken in Sphinx 7.x (and likely much earlier versions). As such,
+   the C parts of this demo won't work until that's addressed.
+
 Usage
 -----
 
@@ -33,3 +39,4 @@ build again:
 You will now see no undocumented methods.
 
 .. __: https://www.sphinx-doc.org/en/master/usage/extensions/coverage.html
+.. __: https://github.com/sphinx-doc/sphinx/issues/11590
